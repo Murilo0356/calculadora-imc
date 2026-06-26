@@ -48,7 +48,7 @@ void calcular(){
   
   if (total < 18.5) {
   mensagem = 'IMC baixo';
-  mudar = const Color.fromARGB(255, 207, 198, 116);
+  mudar = const Color.fromARGB(255, 230, 203, 54);
 } else if (total <= 24.9) {
   mensagem = 'IMC normal';
   mudar = const Color.fromARGB(255, 128, 224, 109);
